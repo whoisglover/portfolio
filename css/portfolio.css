@@ -1,0 +1,77 @@
+/*colors
+teal :#02C1C1
+off-white: #F3F2EF
+red : #FB4644
+dark-blue: #262E3D
+tan: #B39A82
+
+*/
+html {
+  font-family: 'lane', sans-serif;
+}
+
+
+@font-face {
+  font-family: lane;
+  src:url(../lane.ttf);
+}
+
+#header {
+    width: 100%;
+    height: 100%;
+  /*height: 950px;*/
+    background: url("../img/matterhorn.jpg") no-repeat center center fixed ;
+    background-size: cover;
+  }
+
+
+.section {
+  width: 100%;
+  height: 100%;
+}
+
+#about {
+  background: #02C1C1;
+}
+
+#portfolio {
+  background: #F3F2EF;
+}
+#resume {
+  background: #FB4644;
+}
+#contact {
+  background: #262E3D;
+}
+
+.navbar {
+  width: 100%;
+  height: 3rem;
+  /*border-bottom: 2px solid white;*/
+  position: fixed;
+}
+
+.navbar-right {
+  position: fixed;
+  right: 3rem;
+  height: 3rem;
+  width: 40rem;
+  /*border: 1px solid white;*/
+  text-align: center;
+}
+
+.nav-link {
+  position: relative;
+  display: inline;
+  color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /*border: 1px solid red;*/
+  top: 1rem;
+}
+
+.nav-link a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
